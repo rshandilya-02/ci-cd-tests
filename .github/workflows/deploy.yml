@@ -24,4 +24,4 @@ jobs:
             git pull origin main
             npm install
             node index.js
-            echo "completed"
+            echo "completed 3"
