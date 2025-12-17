@@ -23,5 +23,5 @@ jobs:
             cd cicd-node-app
             git pull origin main
             npm install
-            node index.js
+            pm2 restart node-app || pm2 start index.js --name node-app
             echo "completed 3"
